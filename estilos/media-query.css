@@ -13,6 +13,7 @@ Grandes telas : acima de 1200px*/
     }
     section#login{
         width: 80vw;
+        height: 280px;
 
     }
 
@@ -27,6 +28,12 @@ Grandes telas : acima de 1200px*/
         float: right;
         width: 70%;
     }
+    div#form > h1{
+        font-size: 1.5em;
+    }
+    div#form > p{
+        font-size: 1em;
+    }
 
     
 }
@@ -36,18 +43,25 @@ Grandes telas : acima de 1200px*/
     }
     section#login{
         width: 950px;
+        height: 300px;
 
     }
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
         background-position: left center;
     }
 
     section#login > div#form {
-        float: right;
+        float: left;
         width: 50%;
         
+    }
+    div#form > h1{
+        font-size: 2em;
+    }
+    div#form > p{
+        font-size: 1.2em;
     }
 }
